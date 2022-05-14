@@ -143,12 +143,15 @@ def get_info(release_title):
         "WMV": ["wmv"],
         "MPEG": ["mpeg"],
         "REMUX": ["remux", "bdremux"],
+        "8BIT": ["8bit"],
+        "10BIT": ["10bit"],
         "SDR": ["sdr"],
         "HDR": [
             " hdr ",
             "hdr10",
             "hdr 10",
             """
+            **These strings do not always mean HDR. Overly restrictrive.**
             "2160p bluray remux",
             "uhd bluray 2160p",
             "2160p uhd bluray",
