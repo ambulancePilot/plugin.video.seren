@@ -67,6 +67,8 @@ def get_quality(release_title):
             "hdtc",
             "telecine",
             "xbet",
+            "predvd",
+            "pre-dvd",
         ]
     ):
         quality = "CAM"
