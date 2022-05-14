@@ -143,13 +143,16 @@ def get_info(release_title):
         "WMV": ["wmv"],
         "MPEG": ["mpeg"],
         "REMUX": ["remux", "bdremux"],
+        "SDR": ["sdr"],
         "HDR": [
             " hdr ",
             "hdr10",
             "hdr 10",
+            """
             "2160p bluray remux",
             "uhd bluray 2160p",
             "2160p uhd bluray",
+            """
         ],
         "AAC": ["aac"],
         "DTS": ["dts"],
@@ -183,6 +186,8 @@ def get_info(release_title):
             "hdtc",
             "telecine",
             "xbet",
+            "predvd",
+            "pre-dvd",
         ],
         "SCR": ["dvdscr", " scr ", "screener"],
         "HC": ["korsub", " kor ", " hc"],
