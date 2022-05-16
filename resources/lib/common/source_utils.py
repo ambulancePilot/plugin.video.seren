@@ -150,6 +150,10 @@ def get_info(release_title):
             " hdr ",
             "hdr10",
             "hdr 10",
+            " dv ",
+            "dovi",
+            "dolbyvision",
+            "dolby vision",
             """
             **These strings do not always mean HDR. Overly restrictrive.**
             "2160p bluray remux",
